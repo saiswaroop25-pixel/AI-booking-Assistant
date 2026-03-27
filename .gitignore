@@ -1,0 +1,23 @@
+# Secrets
+.streamlit/secrets.toml
+
+# Database (resets on Streamlit Cloud restart — acceptable)
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# FAISS index (rebuilt on upload)
+*.faiss
+*.index
+
+# OS
+.DS_Store
+Thumbs.db
